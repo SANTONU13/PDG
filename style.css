@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Pushster&family=Roboto+Condensed:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background: red;
+    width:20vh;
+}
+.container{
+    display: flex;
+    max-width:80vh;
+    background: grey;
+    
+
+}
+.sidebar nav{
+    margin: 0 auto;
+    padding: 15px;
+    padding-top:50px ;
+    
+}
+.sidebar nav ul{
+    border:3px solid black;
+}
+.sidebar nav ul li{
+    padding: 12px;
+    list-style: none;
+    border: 1px solid black;
+    background: yellow;
+    text-shadow: 2px black ;
+    color:red;
+    
+}
+.sidebar nav ul li:hover{
+    
+     background-color:white ;
+     color: red;
+     text-shadow: 2 2 yellow ;
+     font-family: 'Imperial Script', cursive;font-family: 'Roboto Condensed', sans-serif;
+     font-weight:bold;
+     font-size: 18em;
+     cursor: pointer;
+    
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+}
+.gaand-maro{
+    width:140px;
+    margin:0 auto;
+    float: right;
+    
+}
+.main{
+    font-family: 'Imperial Script', cursive;font-family: 'Pushster', cursive;font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding-top:30px;
+}
+p{
+    font-family: 'Imperial Script', cursive;font-family: 'Pushster', cursive;font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+
+}
